@@ -1,2 +1,7 @@
-# yii2-widget-date-style
-An Yii2 widget for date style
+## 1.Install
+composer require --prefer-dist lulubin/yii2-widget-date-style "dev-master"
+
+## 2.Usage
+```html
+<?=lulubin\date\DateStyle::widget(['sorce_date'=>1479781107])?>
+```
